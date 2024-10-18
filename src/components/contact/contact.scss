@@ -1,0 +1,35 @@
+.contact {
+    background: #151515;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__box-first {
+        width: 900px;
+        height: 700px;
+        background: #1e222b;
+        border-radius: 50px 0 0 50px;
+    }
+
+    &__box-second {
+        width: 470px;
+        height: 700px;
+        background: #ffaa00;
+        border-radius: 0 50px 50px 0;
+    }
+    
+    &__box {
+        display: flex;
+        border-radius: 50px;
+        box-shadow: 0 0 50px 5px #797979;
+    }
+}
