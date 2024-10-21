@@ -21,16 +21,18 @@
         display: flex;
         border-radius: 50px;
         box-shadow: 0 0 50px 5px #797979;
-        padding-top: 100px;
+        // padding-top: 100px;
+        align-items: center;
         padding-left: 140px;
+        column-gap: 120px;
     }
-    
+
     &__title {
         color: #fff;
         font-size: 40px;
         font-weight: bold;
     }
-    
+
     &__txt {
         font-style: italic;
         color: #858585;
@@ -38,7 +40,7 @@
         font-size: 19px;
         max-width: 444px;
     }
-    
+
     &__input-1 {
         width: 405px;
         outline: none;
@@ -46,10 +48,62 @@
         padding: 11px 19px;
         background: transparent;
         color: #fff;
+        display: block;
         font-size: 18px;
-        
+        margin-top: 25px;
+
         &::placeholder {
             font-size: 18px;
         }
+    }
+
+    &__input-text {
+        resize: none;
+        width: 405px;
+        outline: none;
+        background: transparent;
+        border: 2px solid #fff;
+        height: 150px;
+        margin-top: 23px;
+        padding: 11px 19px;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 10px;
+
+        &::placeholder {
+            font-size: 18px;
+        }
+    }
+
+    &__link {
+        display: block;
+        width: 188px;
+        font-size: 18px;
+    }
+    
+    &__box-sec {
+        width: 400px;
+        height: 500px;
+        border-radius: 50px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    
+    &__sec-title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    &__sec-txt {
+        font-size: 18px;
+        color: #8f8f8f;
+        letter-spacing: 5%;
+    }
+    
+    &__email {
+        color: #ffaa00;
     }
 }
