@@ -9,6 +9,8 @@ const Header = () => {
     const [language, setLanguage] = useState(() => localStorage.getItem('language') || 'en');
     const translations = language === 'en' ? en : uz;
 
+    console.log(translations);
+    
     useEffect(() => {
         localStorage.setItem('language', language);
     }, [language]);

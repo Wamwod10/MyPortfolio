@@ -11,6 +11,7 @@ const Navbar = () => {
         localStorage.setItem('language', language);
     }, [language]);
 
+
     return (
         <div className='navbar'>
             <div className="container">

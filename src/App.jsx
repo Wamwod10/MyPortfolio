@@ -5,18 +5,19 @@ import About from './components/about/About'
 import Skills from "./components/skills/Skills"
 import Project from "./components/project/Project"
 import Contact from './components/contact/Contact'
+import Footer from "./components/footer/Footer"
+import { ToastContainer, toast } from 'react-toastify';
+
+
 
 function App() {
-
   const [position, setPosition] = useState({ x: 0, y: 0 });
-
   const handleMouseMove = (e) => {
     setPosition({ x: e.clientX, y: e.clientY });
   };
 
   return (
     <div onMouseMove={handleMouseMove}>
-
       <div
         style={{
           position: 'fixed',
@@ -50,6 +51,8 @@ function App() {
         <section>
           <Contact />
         </section>
+        <Footer />
+        <ToastContainer />
       </main>
     </div>
   )

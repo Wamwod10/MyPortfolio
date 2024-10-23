@@ -14,10 +14,16 @@
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.1.3",
     "@mui/x-charts": "^7.20.0",
+    "@react-three/drei": "^9.114.6",
+    "@react-three/fiber": "^8.17.10",
+    "@types/three": "^0.169.0",
     "framer-motion": "^12.0.0-alpha.0",
+    "leva": "^0.9.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.79.4"
+    "react-toastify": "^10.0.6",
+    "sass": "^1.79.4",
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
