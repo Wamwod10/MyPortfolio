@@ -4,7 +4,7 @@ import { TextureLoader } from 'three/src/loaders/TextureLoader'
 import "./about.scss";
 
 const RotatingGlobe = () => {
-  const texture = useLoader(TextureLoader, '/public/24.jpg'); // Замените на путь к вашему изображению
+  const texture = useLoader(TextureLoader, 'public/24.jpg'); // Замените на путь к вашему изображению
   return (
     <Center top>
       <mesh castShadow>
@@ -22,7 +22,7 @@ const About = () => {
   return (
     <div className='about'>
       <video width="100vw" className='about__video' autoPlay muted loop>
-        <source src="/public/video/2792967-uhd_2160_1440_25fps.mp4" type="" />
+        <source src="public/video/2792967-uhd_2160_1440_25fps.mp4" type="" />
       </video>
       <div className="container">
         <div className="about__box">
