@@ -33,63 +33,63 @@ const Skills = () => {
 
     const skillsChart = [
         {
-            img: "skills/react.svg",
+            img: "public/skills/react.svg",
             name: "React",
             value: 85,
             colorClass: "color-1",
             bgClass: "bg1"
         },
         {
-            img: "skills/sass.svg",
+            img: "public/skills/sass.svg",
             name: "Sass",
             value: 90,
             colorClass: "color-2",
             bgClass: "bg2"
         },
         {
-            img: "skills/ts.svg",
+            img: "public/skills/ts.svg",
             name: "TypeScript",
             value: 80,
             colorClass: "color-3",
             bgClass: "bg3"
         },
         {
-            img: "skills/vercel.svg",
+            img: "public/skills/vercel.svg",
             name: "Vercel",
             value: 80,
             colorClass: "color-4",
             bgClass: "bg4"
         },
         {
-            img: "skills/js.svg",
+            img: "public/skills/js.svg",
             name: "JavaScript",
             value: 60,
             colorClass: "color-5",
             bgClass: "bg5"
         },
         {
-            img: "skills/html.svg",
+            img: "public/skills/html.svg",
             name: "HTML",
             value: 100,
             colorClass: "color-6",
             bgClass: "bg6"
         },
         {
-            img: "skills/css.svg",
+            img: "public/skills/css.svg",
             name: "CSS",
             value: 100,
             colorClass: "color-7",
             bgClass: "bg7"
         },
         {
-            img: "skills/bootstrap.svg",
+            img: "public/skills/bootstrap.svg",
             name: "Bootstrap",
             value: 75,
             colorClass: "color-8",
             bgClass: "bg8"
         },
         {
-            img: "skills/github.svg",
+            img: "public/skills/github.svg",
             name: "GitHub",
             value: 75,
             colorClass: "color-9",
