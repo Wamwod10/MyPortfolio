@@ -4,7 +4,7 @@ import { TextureLoader } from 'three/src/loaders/TextureLoader'
 import "./about.scss";
 
 const RotatingGlobe = () => {
-  const texture = useLoader(TextureLoader, '/public/24.jpg'); // Замените на путь к вашему изображению
+  const texture = useLoader(TextureLoader, '../../../public/24.jpg'); // Замените на путь к вашему изображению
   return (
     <Center top>
       <mesh castShadow>
